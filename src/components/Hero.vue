@@ -1,16 +1,16 @@
 <template>
-    <div>
-        <h1>Australia's most trusted trades provider</h1>
+    <div id="hero">
+        <h1>Australia's most <br> trusted trades <br> provider</h1>
       <form action="">
         <div class="form-example">
           <label for="name">What trade do you need?</label><br>
-          <input type="text" name="name" id="name" required />
+          <input type="text" name="name" id="name" placeholder="e.g Plumber, Electricians" required />
         </div>
         <div class="form-example">
           <label for="name">Postcode or Suburb</label><br>
-          <input type="text" name="name" id="name" required />
+          <input type="text" name="name" id="name" placeholder="e.g Sydney"  required />
         </div>
-        <input type="submit" value="post a job" />
+        <input type="submit" value="Post a job" />
       </form>
     </div>
 </template>
@@ -29,11 +29,16 @@ export default {
     display: flex;
     flex-direction: column;
 }
+
+#hero {
+    margin: 0 22rem;
+    }
 h1, label {
     color: var(--main-color);
 }
 h1 {
     font-size: 4rem;
+    margin-bottom: 0;
 }
 input[type="text"]{
     width: 464px;
@@ -48,6 +53,9 @@ input[type="submit"]{
     height:60px;
     
 }
+.form-example {
+    padding: 2rem;
+    }
 
 form {
     justify-content: space-evenly;
