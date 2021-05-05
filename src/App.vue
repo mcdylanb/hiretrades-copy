@@ -1,37 +1,7 @@
 <template>
   <div>
-    <header>
-      <div>Logo</div>
-      <div>
-        <ul>
-          <li>Trades</li>
-          <li>Cost Guides</li>
-          <li>Blogs</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li>Get Quotes</li>
-          <li>Register Business</li>
-          <li>Login</li>
-        </ul>
-      </div>
-    </header>
-
-    <div>
-      <form action="">
-        <h1>Australia's most trusted trades provider</h1>
-        <div class="form-example">
-          <label for="name">What trade do you need?</label>
-          <input type="text" name="name" id="name" required />
-        </div>
-        <div class="form-example">
-          <label for="name">Postcode or Suburb</label>
-          <input type="text" name="name" id="name" required />
-        </div>
-        <input type="button" value="post a job" />
-      </form>
-    </div>
+    <NavBar />
+    <Hero />
 
     <div>how hiretrades work</div>
 
@@ -39,11 +9,7 @@
     <div>What home owners are saying</div>
     <div>Downlaod the HIRETrades APP</div>
     <div>Our Top Trades</div>
-    <footer>
-      <div>LOGO</div>
-      <div>NAV</div>
-      <div>Download Our Apps</div>
-    </footer>
+    <Footer />
   </div>
 
   <!-- <div id="app">
@@ -54,11 +20,16 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "./components/NavBar.vue";
+import Hero from "./components/Hero.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld
+    NavBar,
+    Hero,
+    Footer,
   },
 };
 </script>
