@@ -33,6 +33,12 @@
       </form>
     </div>
 
+    <div>how hiretrades work</div>
+
+    <div>Inspirational Panel</div>
+    <div>What home owners are saying</div>
+    <div>Downlaod the HIRETrades APP</div>
+    <div>Our Top Trades</div>
     <footer>
       <div>LOGO</div>
       <div>NAV</div>
