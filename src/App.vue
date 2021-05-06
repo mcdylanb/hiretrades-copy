@@ -3,7 +3,7 @@
     <NavBar />
     <Hero />
 
-    <div>how hiretrades work</div>
+    <How/>
 
     <div>Inspirational Panel</div>
     <div>What home owners are saying</div>
@@ -23,13 +23,14 @@
 import NavBar from "./components/NavBar.vue";
 import Hero from "./components/Hero.vue";
 import Footer from "./components/Footer.vue";
+import How from "./components/How.vue";
 
 export default {
   name: "App",
   components: {
     NavBar,
     Hero,
-    Footer,
+    Footer,How,
   },
 };
 </script>
