@@ -1,24 +1,4 @@
 # hiretrades-copy
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+a atempt to copy https://www.hiretrades.com.au into Vue.js environment
+## LIVE DEMO
+https://awesome-heisenberg-bda22a.netlify.app
