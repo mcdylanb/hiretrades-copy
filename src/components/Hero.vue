@@ -53,7 +53,11 @@ input[type="submit"]{
     border-radius: 5px;
     width: 341px;
     height:60px;
+    cursor: pointer;
     
+}
+input[type="submit"]:hover{
+    box-shadow: 0 5px 15px 2px var(--sec-color);
 }
 .form-example {
     padding: 2rem;
