@@ -22,9 +22,6 @@ export default {
 
 <style scoped>
 *{
-    --main-color: #475f7b;
-    --sec-color: #ff5b5c;
-    font-family: Rubik,Helvetica,Arial,serif;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -33,6 +30,7 @@ export default {
 #hero {
     margin: 0 22rem;
     height: 100vh;
+    padding: 5rem;
     }
 h1, label {
     color: var(--main-color);
@@ -40,6 +38,9 @@ h1, label {
 h1 {
     font-size: 4rem;
     margin-bottom: 0;
+}
+label, input[type="text"] {
+    text-align: left;
 }
 input[type="text"]{
     width: 464px;

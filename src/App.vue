@@ -38,6 +38,7 @@ export default {
 * {
   margin: 0;
   padding: 0;
+  --fourth-color: #e6eaee;
   --main-color: #475f7b;
   --sec-color: #ff5b5c;
   --third-color: #7468f0;
