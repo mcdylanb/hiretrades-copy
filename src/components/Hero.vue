@@ -32,6 +32,7 @@ export default {
 
 #hero {
     margin: 0 22rem;
+    height: 100vh;
     }
 h1, label {
     color: var(--main-color);

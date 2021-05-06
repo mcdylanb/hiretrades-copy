@@ -35,6 +35,14 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  --main-color: #475f7b;
+  --sec-color: #ff5b5c;
+  --third-color: #7468f0;
+  font-family: Rubik, Helvetica, Arial, serif;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
