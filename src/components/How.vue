@@ -49,6 +49,8 @@ h2 {
   justify-content: center;
   height: 60vh;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .flex-wrapper-row {
   display: flex;
