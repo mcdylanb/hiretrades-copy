@@ -2,21 +2,21 @@
   <div id="how">
     <h1>How HIREtrades works</h1>
     <div class="flex-wrapper-row">
-      <div class="flex-wrapper-row">
+      <div class="flex-wrapper-row card">
         <h2>1</h2>
         <div class="flex-wrapper-column">
           <h3>Post a job</h3>
           <p>It takes 2 minutes</p>
         </div>
       </div>
-      <div class="flex-wrapper-row">
+      <div class="flex-wrapper-row card">
         <h2>2</h2>
         <div class="flex-wrapper-column">
           <h3>Get quotes</h3>
           <p>Tradies get in touch</p>
         </div>
       </div>
-      <div class="flex-wrapper-row">
+      <div class="flex-wrapper-row card">
         <h2>3</h2>
         <div class="flex-wrapper-column">
           <h3>Rate and review</h3>
@@ -62,5 +62,9 @@ h2 {
 .flex-wrapper-column {
   display: flex;
   flex-direction: column;
+}
+
+.card {
+    margin: 5rem;
 }
 </style>
