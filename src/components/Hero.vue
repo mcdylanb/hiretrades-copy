@@ -29,7 +29,7 @@ export default {
 
 #hero {
     margin: 0 22rem;
-    height: 100vh;
+    height: 60vh;
     padding: 5rem;
     }
 h1, label {
